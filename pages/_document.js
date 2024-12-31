@@ -20,30 +20,30 @@ export default function Document() {
         <meta name="theme-color" content="#fafafa" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        {/* example as PregnantMeal without .com */}
+        {/* example as Play-Kids without .com */}
         <meta
           name="apple-mobile-web-app-title"
           content={customConfig.seo.applicationName}
         />
-        {/* example as PregnantMeal without .com */}
+        {/* example as Play-Kids without .com */}
         <meta
           name="application-name"
           content={customConfig.seo.applicationName}
         />
         <meta
           property="og:title"
-          // example as PregnantMeal - Monitor your website, and server
+          // example as Play-Kids - Monitor your website, and server
           content={customConfig.seo.og.title}
         />
         <meta
           property="og:description"
-          // example as PregnantMeal - Monitor your website, and server
+          // example as Play-Kids - Monitor your website, and server
           content={customConfig.seo.description}
         />
         {/* example as https://play-kids.kz/ */}
         <meta property="og:url" content={customConfig.domainWithHttps} />
         <meta property="og:type" content="website" />
-        {/* example as PregnantMeal */}
+        {/* example as Play-Kids */}
         <meta
           property="og:site_name"
           content={customConfig.seo.applicationName}
@@ -68,7 +68,7 @@ export default function Document() {
         <meta name="twitter:creator" content="@tech_nurgaliyev" />
         <meta
           name="twitter:title"
-          // PregnantMeal - Monitor your website, and server
+          // Play-Kids - Monitor your website, and server
           content={customConfig.seo.og.title}
         />
         <meta
