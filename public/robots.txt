@@ -2,5 +2,8 @@
 User-agent: *
 Allow: /
 
+# Host
+Host: https://play-kids.kz
+
 # Sitemaps
 Sitemap: https://play-kids.kz/sitemap.xml
