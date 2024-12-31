@@ -1,17 +1,14 @@
-const path = require('path');
-const fs = require('fs');
+const path = require("path");
+const fs = require("fs");
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://pregnantmeal.com",
+  siteUrl: "https://play-kids.kz",
   generateRobotsTxt: true,
   robotsTxtOptions: {
-    policies: [
-      { userAgent: '*', disallow: '/meal/' },
-      { userAgent: '*', allow: '/' },
-    ],
+    policies: [{ userAgent: "*", allow: "/" }],
   },
-  exclude: ["/meal", "/meal/*", "/blocked"],
+  exclude: ["/blocked"],
   additionalPaths: async (config) => {
     const result = [];
     const postsDirectory = path.join(process.cwd(), "blog-posts");

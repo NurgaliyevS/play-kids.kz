@@ -36,7 +36,7 @@ export default function BlogIndex({ posts }) {
           name="keywords"
           content={customConfig.seo.keywords}
         />
-        <link rel="canonical" href={`https://pregnantmeal.com/blog`} />
+        <link rel="canonical" href={`https://play-kids.kz/blog`} />
       </Head>
       <BlogHeader />
       <main className="min-h-screen max-w-6xl mx-auto p-8">
@@ -85,7 +85,7 @@ export default function BlogIndex({ posts }) {
                     href={`${
                       isDevelopment()
                         ? `/blog/${post.slug}`
-                        : `https://pregnantmeal.com/blog/${post.slug}`
+                        : `https://play-kids.kz/blog/${post.slug}`
                     }`}
                     className="link link-hover hover:link-primary"
                     title={post.title}

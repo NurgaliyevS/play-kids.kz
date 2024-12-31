@@ -25,7 +25,7 @@ export const authOptions = {
       ? [
           EmailProvider({
             server: process.env.EMAIL_SERVER,
-            from: "noreply@mg.pregnantmeal.com",
+            from: "noreply@mg.play-kids.kz",
           }),
         ]
       : []),
@@ -50,7 +50,7 @@ export const authOptions = {
     strategy: "jwt",
   },
   theme: {
-    logo: `https://pregnantmeal.com/logoAndName200x50.png`,
+    logo: `https://play-kids.kz/logoAndName200x50.png`,
   },
   debug: true, // Enable debug mode for more detailed logs
 };

@@ -1,7 +1,6 @@
 # *
 User-agent: *
-Disallow: /meal/
 Allow: /
 
 # Sitemaps
-Sitemap: https://pregnantmeal.com/sitemap.xml
+Sitemap: https://play-kids.kz/sitemap.xml
