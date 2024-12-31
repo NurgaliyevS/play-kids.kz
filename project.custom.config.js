@@ -25,12 +25,12 @@ export const customConfig = {
     og: {
       title: "Play Kids - детский магазин в Казахстане",
       url: "https://play-kids.kz",
-      image: "https://play-kids.kz/company_related/og-image.webp",
+      image: "https://play-kids.kz/company_related/og-image.jpg",
       imageAlt:
         "Play Kids - детский магазин в Казахстане. Широкий ассортимент детских товаров с доставкой по всему Казахстану.",
       content: "https://x.com/tech_nurgaliyev",
       twitterSite: "@tech_nurgaliyev",
-      twitterImage: "https://play-kids.kz/company_related/og-image.webp",
+      twitterImage: "https://play-kids.kz/company_related/og-image.jpg",
     },
   },
   blog: {
