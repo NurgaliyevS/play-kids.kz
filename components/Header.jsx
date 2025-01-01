@@ -7,7 +7,7 @@ const Header = () => {
         <div className="flex flex-row md:h-16 items-center justify-between py-4 md:py-0">
           <div className="flex items-center justify-between w-auto">
             <Link href="/" className="text-xl font-bold">
-              ACME
+              play-kids.kz
             </Link>
           </div>
           <nav className="flex items-center gap-6 mt-0 justify-center">
