@@ -1,44 +1,38 @@
 export const products = [
   {
     id: 1,
-    name: "Saleor Dash Shoes",
-    price: "$54.00 - $90.00",
-    category: "Shoes",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Набор деревянных  развивающих игрушек монтессори",
+    price: "5,000 ₸",
+    category: "",
+    image: "/toys/деревянных-игрушки-монтессори.jpeg",
+    description:
+      "Этот набор — идеальный выбор для раннего развития вашего малыша. Яркие, безопасные и увлекательные игрушки помогут развивать моторику, координацию, логику и музыкальные способности.",
   },
   {
     id: 2,
-    name: "Saleor Card 50",
-    price: "$50.00",
-    category: "Gift cards",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Развивающий куб для малышей",
+    price: "1500 ₸",
+    category: "",
+    image: "/toys/развивающий-куб-для-малышей.jpeg",
+    description:
+      "Этот яркий развивающий куб — идеальный инструмент для сенсорного и моторного развития малыша. Игрушка создана с учетом возрастных особенностей детей, чтобы стимулировать их интерес, любознательность и координацию.",
   },
   {
     id: 3,
-    name: "Saleor Grey Hoodie",
-    price: "$18.00",
-    category: "Sweatshirts",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Развивающие черно-белые карточки для малышей от 0 до 3 месяцев",
+    price: "1000 ₸",
+    category: "",
+    image: "/toys/Развивающие-черно-белые-карточки.jpeg",
+    description:
+      "Набор черно-белых карточек — это идеальный инструмент для развития зрения малышей в первые месяцы жизни. Карточки разработаны с учетом особенностей восприятия новорожденных, которые лучше всего различают контрастные изображения.",
   },
   {
     id: 4,
-    name: "Saleor Reversed T-shirt",
-    price: "$22.50",
-    category: "T-shirts",
-    image: "/placeholder.svg?height=400&width=400",
-  },
-  {
-    id: 5,
-    name: "Saleor Neck Warmer",
-    price: "$18.00",
-    category: "Scarfs",
-    image: "/placeholder.svg?height=400&width=400",
-  },
-  {
-    id: 6,
-    name: "Saleor Cushion",
-    price: "$18.00",
-    category: "Accessories",
-    image: "/placeholder.svg?height=400&width=400",
+    name: "Силиконовый прорезыватель для малышей",
+    price: "1000 ₸",
+    category: "",
+    image: "/toys/Силиконовый-прорезыватель-для-малышей.jpeg",
+    description:
+      "Силиконовый прорезыватель разработан для облегчения боли при прорезывании зубов и массажа десен малыша. Изготовлен из безопасного пищевого силикона, легко моется и стерилизуется.",
   },
 ];

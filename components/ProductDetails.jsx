@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { CartIcon } from "./icons";
+import Link from "next/link";
 
 function ProductDetails({ product }) {
   return (
@@ -22,10 +23,13 @@ function ProductDetails({ product }) {
         <div className="prose max-w-none">
           <p>{product.description}</p>
         </div>
-        <button className="w-full bg-black text-white py-3 px-6 rounded-md flex items-center justify-center space-x-2 hover:bg-gray-800 transition-colors">
+        <Link
+          className="w-full bg-black text-white py-3 px-6 rounded-md flex items-center justify-center space-x-2 hover:bg-gray-800 transition-colors btn"
+          href="https://wa.me/+77715800069"
+        >
           <CartIcon className="w-5 h-5" />
           <span>Заказать</span>
-        </button>
+        </Link>
       </div>
     </div>
   );
