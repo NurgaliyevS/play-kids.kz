@@ -3,6 +3,11 @@ import { CartIcon } from "./icons";
 import Link from "next/link";
 
 function ProductDetails({ product }) {
+  // Format price with thousand separator and currency
+  const formatPrice = (price) => {
+    return price.toLocaleString("ru-RU") + " ₸";
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div className="space-y-4">
@@ -19,7 +24,7 @@ function ProductDetails({ product }) {
       </div>
       <div className="space-y-6">
         <h1 className="text-3xl font-bold">{product.name}</h1>
-        <p className="text-2xl font-semibold">{product.price}</p>
+        <p className="text-2xl font-semibold">{formatPrice(product.price)}</p>
         <div className="prose max-w-none">
           <p>{product.description}</p>
         </div>
