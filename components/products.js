@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Набор деревянных  развивающих игрушек монтессори",
-    price: "5000 ₸",
+    price: 5000,
     category: "",
     image: "/toys/деревянных-игрушки-монтессори.jpeg",
     description:
@@ -11,7 +11,7 @@ export const products = [
   {
     id: 2,
     name: "Развивающий куб для малышей",
-    price: "1500 ₸",
+    price: 1500,
     category: "",
     image: "/toys/развивающий-куб-для-малышей.jpeg",
     description:
@@ -20,7 +20,7 @@ export const products = [
   {
     id: 3,
     name: "Развивающие черно-белые карточки для малышей от 0 до 3 месяцев",
-    price: "1000 ₸",
+    price: 1000,
     category: "",
     image: "/toys/Развивающие-черно-белые-карточки.jpeg",
     description:
@@ -29,7 +29,7 @@ export const products = [
   {
     id: 4,
     name: "Силиконовый прорезыватель для малышей",
-    price: "1000 ₸",
+    price: 1000,
     category: "",
     image: "/toys/Силиконовый-прорезыватель-для-малышей.jpeg",
     description:

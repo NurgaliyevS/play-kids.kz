@@ -2,6 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 function ProductCard({ product }) {
+  // Format price with thousand separator and currency
+  const formatPrice = (price) => {
+    return price.toLocaleString('ru-RU') + ' ₸';
+  };
+
   return (
     <div className="group relative">
       <Link href={`/products/${product.id}`}>
@@ -19,7 +24,9 @@ function ProductCard({ product }) {
             <h3 className="text-sm font-medium text-gray-900">
               {product.name}
             </h3>
-            <p className="text-sm font-semibold text-gray-900 text-nowrap">{product.price}</p>
+            <p className="text-sm font-semibold text-gray-900 text-nowrap">
+              {formatPrice(product.price)}
+            </p>
           </div>
           <p className="text-sm text-gray-500">{product.category}</p>
         </div>
