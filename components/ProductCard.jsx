@@ -19,15 +19,15 @@ function ProductCard({ product }) {
           />
         </div>
         <div className="mt-4 flex flex-col">
-          <div className="flex items-baseline mb-1 gap-2">
-            <h3 className="text-sm font-medium text-gray-900 truncate">
+          <div className="flex justify-between mb-1 gap-2">
+            <h3 className="text-sm font-medium text-gray-900">
               {product.name}
             </h3>
-            <p className="text-sm font-semibold text-gray-900 flex-shrink-0">
+            <p className="text-sm font-semibold text-primary flex-shrink-0">
               {formatPrice(product.price)}
             </p>
           </div>
-          <p className="text-sm text-gray-500">{product.category}</p>
+          <p className="text-sm font-semibold text-primary">{product.category}</p>
         </div>
       </Link>
     </div>

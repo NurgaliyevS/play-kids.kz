@@ -24,7 +24,7 @@ function ProductDetails({ product }) {
       </div>
       <div className="space-y-6">
         <h1 className="text-3xl font-bold">{product.name}</h1>
-        <p className="text-2xl font-semibold">{formatPrice(product.price)}</p>
+        <p className="text-2xl font-semibold text-primary">{formatPrice(product.price)}</p>
         <div className="prose max-w-none">
           <p>{product.description}</p>
         </div>
