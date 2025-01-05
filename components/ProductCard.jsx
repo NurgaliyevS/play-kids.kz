@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 function ProductCard({ product }) {
-  // Format price with thousand separator and currency
   const formatPrice = (price) => {
     return price.toLocaleString('ru-RU') + ' ₸';
   };
@@ -20,11 +19,11 @@ function ProductCard({ product }) {
           />
         </div>
         <div className="mt-4 flex flex-col">
-          <div className="flex justify-between items-baseline mb-1">
-            <h3 className="text-sm font-medium text-gray-900">
+          <div className="flex items-baseline mb-1 gap-2">
+            <h3 className="text-sm font-medium text-gray-900 truncate">
               {product.name}
             </h3>
-            <p className="text-sm font-semibold text-gray-900 text-nowrap">
+            <p className="text-sm font-semibold text-gray-900 flex-shrink-0">
               {formatPrice(product.price)}
             </p>
           </div>
