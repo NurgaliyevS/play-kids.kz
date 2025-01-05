@@ -13,21 +13,21 @@ export const customConfig = {
     supportEmail: "support@play-kids.kz",
     forwardRepliesTo: "nurgasab@gmail.com",
   },
-  documentTitle: "Play Kids - детский магазин в Казахстане",
+  documentTitle: "Play Kids - детский магазин игрушек в Казахстане",
   domainWithHttps: "https://play-kids.kz",
   seo: {
     keywords:
       "детский магазин, игрушки, детские товары, детское питание, подгузники",
     description:
-      "Play Kids - детский магазин в Казахстане. Широкий ассортимент детских товаров: игрушки, детские товары и многое другое. Доставка по всему Казахстану.",
+      "Play Kids - детский магазин игрушек в Казахстане. Широкий ассортимент детских товаров: игрушки, детские товары и многое другое. Доставка по всему Казахстану.",
     themeColor: "#ffffff",
     applicationName: "play-kids",
     og: {
-      title: "Play Kids - детский магазин в Казахстане",
+      title: "Play Kids - детский магазин игрушек в Казахстане",
       url: "https://play-kids.kz",
       image: "https://play-kids.kz/company_related/og-image.jpg",
       imageAlt:
-        "Play Kids - детский магазин в Казахстане. Широкий ассортимент детских товаров с доставкой по всему Казахстану.",
+        "Play Kids - детский магазин игрушек в Казахстане. Широкий ассортимент детских товаров с доставкой по всему Казахстану.",
       content: "https://x.com/tech_nurgaliyev",
       twitterSite: "@tech_nurgaliyev",
       twitterImage: "https://play-kids.kz/company_related/og-image.jpg",
