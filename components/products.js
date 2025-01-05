@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "Набор деревянных  развивающих игрушек монтессори",
-    price: "5,000 ₸",
+    price: "5000 ₸",
     category: "",
     image: "/toys/деревянных-игрушки-монтессори.jpeg",
     description:

@@ -11,17 +11,17 @@ function ProductCard({ product }) {
             alt={product.name}
             width={400}
             height={400}
-            className="h-full w-full object-cover object-center hover:opacity-75"
+            className="h-full w-full object-cover object-center transition-opacity duration-300 group-hover:opacity-75"
           />
         </div>
-        <div className="mt-4 flex justify-between">
-          <div>
+        <div className="mt-4 flex flex-col">
+          <div className="flex justify-between items-baseline mb-1">
             <h3 className="text-sm font-medium text-gray-900">
-              <span>{product.name}</span>
+              {product.name}
             </h3>
-            <p className="mt-1 text-sm text-gray-500">{product.category}</p>
+            <p className="text-sm font-semibold text-gray-900 text-nowrap">{product.price}</p>
           </div>
-          <p className="text-sm font-medium text-gray-900">{product.price}</p>
+          <p className="text-sm text-gray-500">{product.category}</p>
         </div>
       </Link>
     </div>
